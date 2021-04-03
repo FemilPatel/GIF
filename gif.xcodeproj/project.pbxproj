@@ -16,6 +16,9 @@
 		56AC750C26022B8300083142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AC750A26022B8300083142 /* LaunchScreen.storyboard */; };
 		56AC751726022B8300083142 /* gifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC751626022B8300083142 /* gifTests.swift */; };
 		56AC752226022B8400083142 /* gifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC752126022B8400083142 /* gifUITests.swift */; };
+		56AC753326022C0100083142 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AC753226022C0100083142 /* UIImage+Gif.swift */; };
+		56AC753826022C5400083142 /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 56AC753726022C5400083142 /* tenor.gif */; };
+		56AC753D26022D3A00083142 /* splash_image.gif in Resources */ = {isa = PBXBuildFile; fileRef = 56AC753C26022D3A00083142 /* splash_image.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		56AC751D26022B8400083142 /* gifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AC752126022B8400083142 /* gifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifUITests.swift; sourceTree = "<group>"; };
 		56AC752326022B8400083142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AC753226022C0100083142 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		56AC753726022C5400083142 /* tenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tenor.gif; sourceTree = "<group>"; };
+		56AC753C26022D3A00083142 /* splash_image.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash_image.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +112,11 @@
 				56AC750026022B8000083142 /* ViewController.swift */,
 				56AC750226022B8000083142 /* Main.storyboard */,
 				56AC750826022B8300083142 /* Assets.xcassets */,
+				56AC753726022C5400083142 /* tenor.gif */,
+				56AC753C26022D3A00083142 /* splash_image.gif */,
 				56AC750A26022B8300083142 /* LaunchScreen.storyboard */,
 				56AC750D26022B8300083142 /* Info.plist */,
+				56AC753226022C0100083142 /* UIImage+Gif.swift */,
 				56AC750526022B8000083142 /* gif.xcdatamodeld */,
 			);
 			path = gif;
@@ -235,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AC750C26022B8300083142 /* LaunchScreen.storyboard in Resources */,
+				56AC753D26022D3A00083142 /* splash_image.gif in Resources */,
+				56AC753826022C5400083142 /* tenor.gif in Resources */,
 				56AC750926022B8300083142 /* Assets.xcassets in Resources */,
 				56AC750426022B8000083142 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +275,7 @@
 				56AC750126022B8000083142 /* ViewController.swift in Sources */,
 				56AC74FD26022B8000083142 /* AppDelegate.swift in Sources */,
 				56AC750726022B8000083142 /* gif.xcdatamodeld in Sources */,
+				56AC753326022C0100083142 /* UIImage+Gif.swift in Sources */,
 				56AC74FF26022B8000083142 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

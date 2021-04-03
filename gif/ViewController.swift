@@ -7,12 +7,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    @IBOutlet var gifView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.gifView.backgroundColor=UIColor.orange
+        gifView.loadGif(name: "splash_image")
         // Do any additional setup after loading the view.
     }
+    
+    override func didReceiveMemoryWarning() {
+      super.didReceiveMemoryWarning()
+
+  }
 
 
 }
